@@ -1,531 +1,547 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--[if gte mso 9]>
-		<style type="text/css">
-		table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; border:0; }
-		table td { border-collapse:collapse; font-size:1px; line-height:1px; } 
-		</style>
-		<![endif]-->
-		<title>E-mail Marketing</title>
-		<style>
-			* {
-				padding: 0;
-				margin: 0;
-			}
-			@media screen and (max-width: 480px) {
-				table,tbody,thead,tr,td {
-					display: block;
-					width: auto;
-					height: auto;
-				}
-				img {
-					display: block;
-					max-width: 100%;
-					height: auto;
-					margin: auto;
-				}
-				table.master {
-					margin-left: 10px !important;
-					margin-right: 10px !important;
-				}
-				td.foobox {
-					margin-bottom: 5px;
-				}
-				td.foobox br {display: none}
-				br.none,
-				td.none {
-					display: none !important;
-				}
-				td.show {
-					display: block !important;
-				}
-				td.padding {
-					padding: 10px 0 !important;
-				}
-				td.center {
-					text-align: center;
-				}
-				td.cta {
-					width: 200px;
-					margin-left: auto;
-					margin-right: auto;
-				}
-				td.brands {
-					text-align: center;
-					padding-top: 10px;
-					padding-bottom: 10px;
-				}
-				td.brands td,
-				td.header td {
-					display: inline-block;
-				}
-				td.header .font-title {
-					font-size: 22px !important;
-				}
-				td.header .font-title.small {
-					font-size: 16px !important;
-				}
-				td.bigfoot {
-					padding: 35px 20px !important;
-				}
-				td.bigfoot td {
-					padding-left: 10px;
-					padding-right: 10px;
-				}
-				td.bigfoot td a {
-					font-size: 14px !important;
-				}
-				.dscto {
-					font-size: 24px !important;
-				}
-				.font-title {
-					font-size: 18px !important;
-				}
-				img.logo {
-					width: 210px;
-				}
-				img.imagelist {
-					margin-left: 0;
-					margin-right: 0;
-					width: 100%;
-				}
-				td.box {
-					padding: 15px !important;
-				}
-				td.hola br {display: none;}
-				td.sinpad {
-					padding-bottom: 0 !important;
-				}
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if gte mso 9]>
+      <style type="text/css">
+        table {
+          border-collapse: collapse;
+          mso-table-lspace: 0pt;
+          mso-table-rspace: 0pt;
+          border: 0;
+        }
+        table td {
+          border-collapse: collapse;
+          font-size: 1px;
+          line-height: 1px;
+        }
+      </style>
+    <![endif]-->
+    <title>E-mail Marketing</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      @media screen and (max-width: 480px) {
+        table,
+        tbody,
+        thead,
+        tr,
+        td {
+          display: block;
+          width: auto;
+          height: auto;
+        }
+        img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+          margin: auto;
+        }
+        table.master {
+          margin-left: 10px !important;
+          margin-right: 10px !important;
+        }
+        td.foobox {
+          margin-bottom: 5px;
+        }
+        td.foobox br {
+          display: none;
+        }
+        br.none,
+        td.none {
+          display: none !important;
+        }
+        td.show {
+          display: block !important;
+        }
+        td.padding {
+          padding: 10px 0 !important;
+        }
+        td.center {
+          text-align: center;
+        }
+        td.cta {
+          width: 200px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        td.brands {
+          text-align: center;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        td.brands td,
+        td.header td {
+          display: inline-block;
+        }
+        td.header .font-title {
+          font-size: 22px !important;
+        }
+        td.header .font-title.small {
+          font-size: 16px !important;
+        }
+        td.bigfoot {
+          padding: 35px 20px !important;
+        }
+        td.bigfoot td {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        td.bigfoot td a {
+          font-size: 14px !important;
+        }
+        .dscto {
+          font-size: 24px !important;
+        }
+        .font-title {
+          font-size: 18px !important;
+        }
+        img.logo {
+          width: 210px;
+        }
+        img.imagelist {
+          margin-left: 0;
+          margin-right: 0;
+          width: 100%;
+        }
+        td.box {
+          padding: 15px !important;
+        }
+        td.hola br {
+          display: none;
+        }
+        td.sinpad {
+          padding-bottom: 0 !important;
+        }
 
-				td.sinpad a {
-					font-size: 15px !important;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<table class="master" cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family:arial,helvetica,sans-serif;color:#000000;margin:auto;line-height:1.2;">
-			<tr>
-				<td class="header" align="center" style="padding:10px 0;display:block;">
-					<span style="font-size:9px;display:block;">Si no puedes ver este correo por favor haz click 
-						<a href="#" target="_blank" style="color:#003bc2;">aqu&iacute;.</a><br/>
-						Para garantizar la entrega de los e-mails a tu bandeja de entrada, por favor a&ntilde;ade a tu libreta de direcciones nuestra direcci&oacute;n:<br/> 
-						<a href="mailto:newsletter@domain.com"  target="_blank" title="newsletter@domain.com" style="color:#003bc2;">newsletter@domain.com</a>
-					</span>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<img style="display:block;" src="img/banner.jpg" alt="&iexcl;Disfruta los mejores descuentos!" width="650" height="410" border="0">
-				</td>
-			</tr>
-			<tr>
-				<td class="hola" bgcolor="#D52B1E" align="center" style="padding-top:15px;padding-bottom:15px;padding-left:25px;padding-right:25px;">
-					<p class="font-title" style="font-size:20px;font-family:arial,helvetica,sans-serif;color:#FFFFFF;margin:0;padding:0;">
-            Relax, comida, turismo y mucho m&aacute;s <br> 
-            gracias a los grandes descuentos
-					</p>
-				</td>
-			</tr>
-			<tr>
-				<td bgcolor="#F4F4F4" style="padding-top:20px;">
-					<table cellpadding="0" cellspacing="0" border="0" width="100%">
-						<tr>
-							<td width="15" class="none"></td>
-							<td bgcolor="#FFFFFF">
-								<table cellpadding="0" cellspacing="0" border="0" width="100%">
-									<tr>
-										<td style="padding:20px;" class="padding">
-											<table cellpadding="0" cellspacing="0" border="0" width="100%">
-												<tr>
-													<td valign="top" width="48%">
-														<table cellpadding="0" cellspacing="0" border="0" width="100%">
-															<tr>
-																<td style="border:2px solid red;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td>
-																				<img class="imagelist" style="display:block;" src="img/1-imagen.jpg" alt="" width="276" height="121" border="0">
-																			</td>
-																		</tr>
-																		<tr>
-																			<td class="box" style="padding-top:15px;padding-left:15px;padding-right:15px;">
-																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
-																					<tr>
-																						<td class="header" align="center" style="padding-bottom:5px;">
-																							<p class="font-title" style="font-size:32px;font-family:arial,helvetica,sans-serif;color:#D52B1E;font-weight:bold;margin:0;padding:0;">
-																								<span style="font-size:20px;font-weight:bold;">A solo</span> S/ 93
-																							</p>
-																						</td>
-																					</tr>
-																					<tr>
-																						<td height="2" width="100%" bgcolor="#929292"></td>
-																					</tr>
-																					<tr>
-																						<td valign="top" height="80" align="center" style="padding-top:5px;">
-																							<p class="font-title" style="font-size:17px;font-family:arial,helvetica,sans-serif;color:#333333;margin:0;padding:0;">
-																								&iexcl;Celebra la independencia <br>con una parrilla para dos!
-																							</p>
-																						</td>
-																					</tr>
-																				</table>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-															<tr>
-																<td style="padding-top:25px;padding-bottom:25px;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td width="45" class="none"></td>
-																			<td align="center" bgcolor="#D52B1E" style="padding-top:10px;padding-bottom:10px;border-radius:4px;" class="cta">
-																				<a href="#" target="_blank" style="font-size:18px;font-family:arial,helvetica,sans-serif;text-decoration:none;color:#FFFFFF;">
-																					Descarga cup&oacute;n &gt;
-																				</a>
-																			</td>
-																			<td width="45" class="none"></td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-													</td>
-													<td width="4%" class="none"></td>
-													<td valign="top" width="48%">
-														<table cellpadding="0" cellspacing="0" border="0" width="100%">
-															<tr>
-																<td style="border:2px solid red;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td>
-																				<img class="imagelist" style="display:block;" src="img/2-imagen.jpg" alt="" width="276" height="121" border="0">
-																			</td>
-																		</tr>
-																		<tr>
-																			<td class="box" style="padding-top:15px;padding-left:15px;padding-right:15px;">
-																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
-																					<tr>
-																						<td class="header" align="center" style="padding-bottom:5px;">
-																							<p class="font-title" style="font-size:32px;font-family:arial,helvetica,sans-serif;color:#D52B1E;font-weight:bold;margin:0;padding:0;">
-																								35% Dscto.
-																							</p>
-																						</td>
-																					</tr>
-																					<tr>
-																						<td height="2" width="100%" bgcolor="#929292">
-																							
-																						</td>
-																					</tr>
-																					<tr>
-																						<td valign="top" height="80" align="center" style="padding-top:5px;">
-																							<p class="font-title" style="font-size:17px;font-family:arial,helvetica,sans-serif;color:#333333;margin:0;padding:0;">
-																								En City Tour Turibus.<br>
-																								&iexcl;Da una vuelta tur&iacute;stica <br />
-																								para ver m&aacute;s destinos!
-																							</p>
-																						</td>
-																					</tr>
-																				</table>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-															<tr>
-																<td style="padding-top:25px;padding-bottom:25px;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td width="45" class="none"></td>
-																			<td align="center" bgcolor="#D52B1E" style="padding-top:10px;padding-bottom:10px;border-radius:4px;" class="cta">
-																				<a href="#" target="_blank" style="font-size:18px;font-family:arial,helvetica,sans-serif;text-decoration:none;color:#FFFFFF;">
-																					Descarga cup&oacute;n &gt;
-																				</a>
-																			</td>
-																			<td width="45" class="none"></td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-												<tr>
-													<td valign="top" width="48%">
-														<table cellpadding="0" cellspacing="0" border="0" width="100%">
-															<tr>
-																<td style="border:2px solid red;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td>
-																				<img class="imagelist" style="display:block;" src="img/3-imagen.jpg" alt="" width="276" height="121" border="0">
-																			</td>
-																		</tr>
-																		<tr>
-																			<td class="box" style="padding-top:15px;padding-left:15px;padding-right:15px;">
-																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
-																					<tr>
-																						<td class="header" align="center" style="padding-bottom:5px;">
-																							<p class="font-title" style="font-size:32px;font-family:arial,helvetica,sans-serif;color:#D52B1E;font-weight:bold;margin:0;padding:0;">
-																								<span style="font-size:20px;font-weight:bold;">A solo</span> S/ 120
-																							</p>
-																						</td>
-																					</tr>
-																					<tr>
-																						<td height="2" width="100%" bgcolor="#929292"></td>
-																					</tr>
-																					<tr>
-																						<td valign="top" height="80" align="center" style="padding-top:5px;">
-																							<p class="font-title" style="font-size:17px;font-family:arial,helvetica,sans-serif;color:#333333;margin:0;padding:0;">
-																								Las mejores carnes <br /> 
-																								cocinadas al estilo Per&uacute; <br />
-																								en un combo familiar.
-																							</p>
-																						</td>
-																					</tr>
-																				</table>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-															<tr>
-																<td style="padding-top:25px;padding-bottom:25px;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td width="45" class="none"></td>
-																			<td align="center" bgcolor="#D52B1E" style="padding-top:10px;padding-bottom:10px;border-radius:4px;" class="cta">
-																				<a href="#" target="_blank" style="font-size:18px;font-family:arial,helvetica,sans-serif;text-decoration:none;color:#FFFFFF;">
-																					Descarga cup&oacute;n &gt;
-																				</a>
-																			</td>
-																			<td width="45" class="none"></td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-													</td>
-													<td width="4%" class="none"></td>
-													<td valign="top" width="48%">
-														<table cellpadding="0" cellspacing="0" border="0" width="100%">
-															<tr>
-																<td style="border:2px solid red;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td>
-																				<img class="imagelist" style="display:block;" src="img/4-imagen.jpg" alt="" width="276" height="121" border="0">
-																			</td>
-																		</tr>
-																		<tr>
-																			<td class="box" style="padding-top:15px;padding-left:15px;padding-right:15px;">
-																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
-																					<tr>
-																						<td class="header" align="center" style="padding-bottom:5px;">
-																							<p class="font-title" style="font-size:32px;font-family:arial,helvetica,sans-serif;color:#D52B1E;font-weight:bold;margin:0;padding:0;">
-																								50% Dscto.
-																							</p>
-																						</td>
-																					</tr>
-																					<tr>
-																						<td height="2" width="100%" bgcolor="#929292"></td>
-																					</tr>
-																					<tr>
-																						<td valign="top" height="80" align="center" style="padding-top:5px;">
-																							<p class="font-title" style="font-size:17px;font-family:arial,helvetica,sans-serif;color:#333333;margin:0;padding:0;">
-																								En entrada para ni&ntilde;os. <br />
-																								&iexcl;Un descuento pensado <br />
-																								en los engre&iacute;dos!
-																							</p>
-																						</td>
-																					</tr>
-																				</table>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-															<tr>
-																<td style="padding-top:25px;padding-bottom:25px;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td width="45" class="none"></td>
-																			<td align="center" bgcolor="#D52B1E" style="padding-top:10px;padding-bottom:10px;border-radius:4px;" class="cta">
-																				<a href="#" target="_blank" style="font-size:18px;font-family:arial,helvetica,sans-serif;text-decoration:none;color:#FFFFFF;">
-																					Descarga cup&oacute;n &gt;
-																				</a>
-																			</td>
-																			<td width="45" class="none"></td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-												<tr>
-													<td valign="top" width="48%">
-														<table cellpadding="0" cellspacing="0" border="0" width="100%">
-															<tr>
-																<td style="border:2px solid red;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td>
-																				<img class="imagelist" style="display:block;" src="img/5-imagen.jpg" alt="" width="276" height="121" border="0">
-																			</td>
-																		</tr>
-																		<tr>
-																			<td class="box" style="padding-top:15px;padding-left:15px;padding-right:15px;">
-																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
-																					<tr>
-																						<td class="header" align="center" style="padding-bottom:5px;">
-																							<p class="font-title" style="font-size:32px;font-family:arial,helvetica,sans-serif;color:#D52B1E;font-weight:bold;margin:0;padding:0;">
-																								<span style="font-size:20px;font-weight:bold;">A solo</span> S/ 30
-																							</p>
-																						</td>
-																					</tr>
-																					<tr>
-																						<td height="2" width="100%" bgcolor="#929292"></td>
-																					</tr>
-																					<tr>
-																						<td valign="top" height="80" align="center" style="padding-top:5px;">
-																							<p class="font-title" style="font-size:17px;font-family:arial,helvetica,sans-serif;color:#333333;margin:0;padding:0;">
-																								En masaje relajante  <br />
-																								con aceite de  <br />
-																								almendras o coco.
-																							</p>
-																						</td>
-																					</tr>
-																				</table>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-															<tr>
-																<td style="padding-top:25px;padding-bottom:25px;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td width="45" class="none"></td>
-																			<td align="center" bgcolor="#D52B1E" style="padding-top:10px;padding-bottom:10px;border-radius:4px;" class="cta">
-																				<a href="#" target="_blank" style="font-size:18px;font-family:arial,helvetica,sans-serif;text-decoration:none;color:#FFFFFF;">
-																					Descarga cup&oacute;n &gt;
-																				</a>
-																			</td>
-																			<td width="45" class="none"></td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-													</td>
-													<td width="4%" class="none"></td>
-													<td valign="top" width="48%">
-														<table cellpadding="0" cellspacing="0" border="0" width="100%">
-															<tr>
-																<td style="border:2px solid red;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td>
-																				<img class="imagelist" style="display:block;" src="img/6-imagen.jpg" alt="" width="276" height="121" border="0">
-																			</td>
-																		</tr>
-																		<tr>
-																			<td class="box" style="padding-top:15px;padding-left:15px;padding-right:15px;">
-																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
-																					<tr>
-																						<td class="header" align="center" style="padding-bottom:5px;">
-																							<p class="font-title" style="font-size:32px;font-family:arial,helvetica,sans-serif;color:#D52B1E;font-weight:bold;margin:0;padding:0;">
-																								<span style="font-size:20px;font-weight:bold;">A solo</span> S/ 59.90
-																							</p>
-																						</td>
-																					</tr>
-																					<tr>
-																						<td height="2" width="100%" bgcolor="#929292"></td>
-																					</tr>
-																					<tr>
-																						<td valign="top" height="80" align="center" style="padding-top:5px;">
-																							<p class="font-title" style="font-size:17px;font-family:arial,helvetica,sans-serif;color:#333333;margin:0;padding:0;">
-																								Disfruta de un Piqueo Criollo <br>
-																								+ 2 Chilcanos cl&aacute;sicos.
-																							</p>
-																						</td>
-																					</tr>
-																				</table>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-															<tr>
-																<td style="padding-top:25px;padding-bottom:25px;">
-																	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-																		<tr>
-																			<td width="45" class="none"></td>
-																			<td align="center" bgcolor="#D52B1E" style="padding-top:10px;padding-bottom:10px;border-radius:4px;" class="cta">
-																				<a href="#" target="_blank" style="font-size:18px;font-family:arial,helvetica,sans-serif;text-decoration:none;color:#FFFFFF;">
-																					Descarga cup&oacute;n &gt;
-																				</a>
-																			</td>
-																			<td width="45" class="none"></td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-							<td width="15" class="none"></td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td class="none">
-					<img style="display:block;" src="img/footer.jpg" alt="" width="650" height="42" border="0">
-				</td>
-			</tr>
-			<tr>
-				<td class="sinpad" bgcolor="#F4F4F4" align="center" style="padding-bottom:40px;">
-					<table width="350" cellpadding="0" cellspacing="0" border="0" width="220">
-						<tr>
-							<td class="padding" bgcolor="#D52B1E" height="40" align="center" style="border-radius:3px;">
-								<a href="#" target="_blank" style="font-size:17px;font-family:Arial,Helvetica,sans-serif;color:#FFFFFF;text-decoration:none;display:block;">
-									Descubre miles de descuentos aqu&iacute; &gt;
-								</a>
-							</td>
-						</tr>
-					</table>
-				</td>
-      </tr>
+        td.sinpad a {
+          font-size: 15px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table class="master" cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: arial, helvetica, sans-serif; color: #000000; margin: auto; line-height: 1.2;">
       <tr>
-        <td class="show" style="display:none;">
-          <span style="height:20px;display:block;"></span>
+        <td class="header" align="center" style="padding: 10px 0; display: block;">
+          <span style="font-size: 9px; display: block;">
+            Si no puedes ver este correo por favor haz click <a href="#" target="_blank" style="color: #003bc2;">aqu&iacute;.</a><br />
+            Para garantizar la entrega de los e-mails a tu bandeja de entrada, por favor a&ntilde;ade a tu libreta de direcciones nuestra direcci&oacute;n:<br />
+            <a href="mailto:newsletter@domain.com" target="_blank" title="newsletter@domain.com" style="color: #003bc2;">newsletter@domain.com</a>
+          </span>
         </td>
       </tr>
-			<tr>
-				<td bgcolor="#D52B1E" align="center" style="padding-top:3px;padding-bottom:3px;">
-					<span style="font-size:13px;color:#ffffff;">
-						Por favor, no responda sobre este correo
-					</span>
-				</td>
-			</tr>
-			<tr>
-				<td style="padding-top:10px;padding-bottom:15px;text-align:center;">
-					<span style="font-size:9px;color:#626262;display:block;">
-						Este e-mail fue enviado a <a href="mailto:%%TAG_EMAIL%%" target="_blank" style="color:#003bc2;text-decoration:underline;">%%TAG_EMAIL%%</a>. Si no desea seguir recibiendo promociones o informaci&oacute;n haga click <a href="#" target="_blank" style="color:#003bc2;text-decoration:underline;">aqu&iacute;</a>.
-					</span>
-				</td>
-			</tr>
-		</table>
-	</body>
+      <tr>
+        <td>
+          <img style="display: block;" src="img/banner.jpg" alt="&iexcl;Disfruta los mejores descuentos!" width="650" height="410" border="0" />
+        </td>
+      </tr>
+      <tr>
+        <td class="hola" bgcolor="#D52B1E" align="center" style="padding-top: 15px; padding-bottom: 15px; padding-left: 25px; padding-right: 25px;">
+          <p class="font-title" style="font-size: 20px; font-family: arial, helvetica, sans-serif; color: #ffffff; margin: 0; padding: 0;">
+            Relax, comida, turismo y mucho m&aacute;s <br />
+            gracias a los grandes descuentos
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="#F4F4F4" style="padding-top: 20px;">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr>
+              <td width="15" class="none"></td>
+              <td bgcolor="#FFFFFF">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                  <tr>
+                    <td style="padding: 20px;" class="padding">
+                      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                          <td valign="top" width="48%">
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                              <tr>
+                                <td style="border: 2px solid red;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td>
+                                        <img class="imagelist" style="display: block;" src="img/1-imagen.jpg" alt="" width="276" height="121" border="0" />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="box" style="padding-top: 15px; padding-left: 15px; padding-right: 15px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                          <tr>
+                                            <td class="header" align="center" style="padding-bottom: 5px;">
+                                              <p class="font-title" style="font-size: 32px; font-family: arial, helvetica, sans-serif; color: #d52b1e; font-weight: bold; margin: 0; padding: 0;">
+                                                <span style="font-size: 20px; font-weight: bold;">A solo</span> S/ 93
+                                              </p>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="2" width="100%" bgcolor="#929292"></td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="top" height="80" align="center" style="padding-top: 5px;">
+                                              <p class="font-title" style="font-size: 17px; font-family: arial, helvetica, sans-serif; color: #333333; margin: 0; padding: 0;">
+                                                &iexcl;Celebra la independencia <br />
+                                                con una parrilla para dos!
+                                              </p>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-top: 25px; padding-bottom: 25px;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td width="45" class="none"></td>
+                                      <td align="center" bgcolor="#D52B1E" style="padding-top: 10px; padding-bottom: 10px; border-radius: 4px;" class="cta">
+                                        <a href="#" target="_blank" style="font-size: 18px; font-family: arial, helvetica, sans-serif; text-decoration: none; color: #ffffff;">
+                                          Descarga cup&oacute;n &gt;
+                                        </a>
+                                      </td>
+                                      <td width="45" class="none"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td width="4%" class="none"></td>
+                          <td valign="top" width="48%">
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                              <tr>
+                                <td style="border: 2px solid red;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td>
+                                        <img class="imagelist" style="display: block;" src="img/2-imagen.jpg" alt="" width="276" height="121" border="0" />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="box" style="padding-top: 15px; padding-left: 15px; padding-right: 15px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                          <tr>
+                                            <td class="header" align="center" style="padding-bottom: 5px;">
+                                              <p class="font-title" style="font-size: 32px; font-family: arial, helvetica, sans-serif; color: #d52b1e; font-weight: bold; margin: 0; padding: 0;">
+                                                35% Dscto.
+                                              </p>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="2" width="100%" bgcolor="#929292"></td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="top" height="80" align="center" style="padding-top: 5px;">
+                                              <p class="font-title" style="font-size: 17px; font-family: arial, helvetica, sans-serif; color: #333333; margin: 0; padding: 0;">
+                                                En City Tour Turibus.<br />
+                                                &iexcl;Da una vuelta tur&iacute;stica <br />
+                                                para ver m&aacute;s destinos!
+                                              </p>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-top: 25px; padding-bottom: 25px;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td width="45" class="none"></td>
+                                      <td align="center" bgcolor="#D52B1E" style="padding-top: 10px; padding-bottom: 10px; border-radius: 4px;" class="cta">
+                                        <a href="#" target="_blank" style="font-size: 18px; font-family: arial, helvetica, sans-serif; text-decoration: none; color: #ffffff;">
+                                          Descarga cup&oacute;n &gt;
+                                        </a>
+                                      </td>
+                                      <td width="45" class="none"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top" width="48%">
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                              <tr>
+                                <td style="border: 2px solid red;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td>
+                                        <img class="imagelist" style="display: block;" src="img/3-imagen.jpg" alt="" width="276" height="121" border="0" />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="box" style="padding-top: 15px; padding-left: 15px; padding-right: 15px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                          <tr>
+                                            <td class="header" align="center" style="padding-bottom: 5px;">
+                                              <p class="font-title" style="font-size: 32px; font-family: arial, helvetica, sans-serif; color: #d52b1e; font-weight: bold; margin: 0; padding: 0;">
+                                                <span style="font-size: 20px; font-weight: bold;">A solo</span> S/ 120
+                                              </p>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="2" width="100%" bgcolor="#929292"></td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="top" height="80" align="center" style="padding-top: 5px;">
+                                              <p class="font-title" style="font-size: 17px; font-family: arial, helvetica, sans-serif; color: #333333; margin: 0; padding: 0;">
+                                                Las mejores carnes <br />
+                                                cocinadas al estilo Per&uacute; <br />
+                                                en un combo familiar.
+                                              </p>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-top: 25px; padding-bottom: 25px;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td width="45" class="none"></td>
+                                      <td align="center" bgcolor="#D52B1E" style="padding-top: 10px; padding-bottom: 10px; border-radius: 4px;" class="cta">
+                                        <a href="#" target="_blank" style="font-size: 18px; font-family: arial, helvetica, sans-serif; text-decoration: none; color: #ffffff;">
+                                          Descarga cup&oacute;n &gt;
+                                        </a>
+                                      </td>
+                                      <td width="45" class="none"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td width="4%" class="none"></td>
+                          <td valign="top" width="48%">
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                              <tr>
+                                <td style="border: 2px solid red;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td>
+                                        <img class="imagelist" style="display: block;" src="img/4-imagen.jpg" alt="" width="276" height="121" border="0" />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="box" style="padding-top: 15px; padding-left: 15px; padding-right: 15px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                          <tr>
+                                            <td class="header" align="center" style="padding-bottom: 5px;">
+                                              <p class="font-title" style="font-size: 32px; font-family: arial, helvetica, sans-serif; color: #d52b1e; font-weight: bold; margin: 0; padding: 0;">
+                                                50% Dscto.
+                                              </p>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="2" width="100%" bgcolor="#929292"></td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="top" height="80" align="center" style="padding-top: 5px;">
+                                              <p class="font-title" style="font-size: 17px; font-family: arial, helvetica, sans-serif; color: #333333; margin: 0; padding: 0;">
+                                                En entrada para ni&ntilde;os. <br />
+                                                &iexcl;Un descuento pensado <br />
+                                                en los engre&iacute;dos!
+                                              </p>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-top: 25px; padding-bottom: 25px;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td width="45" class="none"></td>
+                                      <td align="center" bgcolor="#D52B1E" style="padding-top: 10px; padding-bottom: 10px; border-radius: 4px;" class="cta">
+                                        <a href="#" target="_blank" style="font-size: 18px; font-family: arial, helvetica, sans-serif; text-decoration: none; color: #ffffff;">
+                                          Descarga cup&oacute;n &gt;
+                                        </a>
+                                      </td>
+                                      <td width="45" class="none"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top" width="48%">
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                              <tr>
+                                <td style="border: 2px solid red;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td>
+                                        <img class="imagelist" style="display: block;" src="img/5-imagen.jpg" alt="" width="276" height="121" border="0" />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="box" style="padding-top: 15px; padding-left: 15px; padding-right: 15px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                          <tr>
+                                            <td class="header" align="center" style="padding-bottom: 5px;">
+                                              <p class="font-title" style="font-size: 32px; font-family: arial, helvetica, sans-serif; color: #d52b1e; font-weight: bold; margin: 0; padding: 0;">
+                                                <span style="font-size: 20px; font-weight: bold;">A solo</span> S/ 30
+                                              </p>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="2" width="100%" bgcolor="#929292"></td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="top" height="80" align="center" style="padding-top: 5px;">
+                                              <p class="font-title" style="font-size: 17px; font-family: arial, helvetica, sans-serif; color: #333333; margin: 0; padding: 0;">
+                                                En masaje relajante <br />
+                                                con aceite de <br />
+                                                almendras o coco.
+                                              </p>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-top: 25px; padding-bottom: 25px;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td width="45" class="none"></td>
+                                      <td align="center" bgcolor="#D52B1E" style="padding-top: 10px; padding-bottom: 10px; border-radius: 4px;" class="cta">
+                                        <a href="#" target="_blank" style="font-size: 18px; font-family: arial, helvetica, sans-serif; text-decoration: none; color: #ffffff;">
+                                          Descarga cup&oacute;n &gt;
+                                        </a>
+                                      </td>
+                                      <td width="45" class="none"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td width="4%" class="none"></td>
+                          <td valign="top" width="48%">
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                              <tr>
+                                <td style="border: 2px solid red;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td>
+                                        <img class="imagelist" style="display: block;" src="img/6-imagen.jpg" alt="" width="276" height="121" border="0" />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="box" style="padding-top: 15px; padding-left: 15px; padding-right: 15px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                          <tr>
+                                            <td class="header" align="center" style="padding-bottom: 5px;">
+                                              <p class="font-title" style="font-size: 32px; font-family: arial, helvetica, sans-serif; color: #d52b1e; font-weight: bold; margin: 0; padding: 0;">
+                                                <span style="font-size: 20px; font-weight: bold;">A solo</span> S/ 59.90
+                                              </p>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="2" width="100%" bgcolor="#929292"></td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="top" height="80" align="center" style="padding-top: 5px;">
+                                              <p class="font-title" style="font-size: 17px; font-family: arial, helvetica, sans-serif; color: #333333; margin: 0; padding: 0;">
+                                                Disfruta de un Piqueo Criollo <br />
+                                                + 2 Chilcanos cl&aacute;sicos.
+                                              </p>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-top: 25px; padding-bottom: 25px;">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                      <td width="45" class="none"></td>
+                                      <td align="center" bgcolor="#D52B1E" style="padding-top: 10px; padding-bottom: 10px; border-radius: 4px;" class="cta">
+                                        <a href="#" target="_blank" style="font-size: 18px; font-family: arial, helvetica, sans-serif; text-decoration: none; color: #ffffff;">
+                                          Descarga cup&oacute;n &gt;
+                                        </a>
+                                      </td>
+                                      <td width="45" class="none"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="15" class="none"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="none">
+          <img style="display: block;" src="img/footer.jpg" alt="" width="650" height="42" border="0" />
+        </td>
+      </tr>
+      <tr>
+        <td class="sinpad" bgcolor="#F4F4F4" align="center" style="padding-bottom: 40px;">
+          <table width="350" cellpadding="0" cellspacing="0" border="0" width="220">
+            <tr>
+              <td class="padding" bgcolor="#D52B1E" height="40" align="center" style="border-radius: 3px;">
+                <a href="#" target="_blank" style="font-size: 17px; font-family: Arial, Helvetica, sans-serif; color: #ffffff; text-decoration: none; display: block;">
+                  Descubre miles de descuentos aqu&iacute; &gt;
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="show" style="display: none;">
+          <span style="height: 20px; display: block;"></span>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="#D52B1E" align="center" style="padding-top: 3px; padding-bottom: 3px;">
+          <span style="font-size: 13px; color: #ffffff;">
+            Por favor, no responda sobre este correo
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-top: 10px; padding-bottom: 15px; text-align: center;">
+          <span style="font-size: 9px; color: #626262; display: block;">
+            Este e-mail fue enviado a <a href="mailto:%%TAG_EMAIL%%" target="_blank" style="color: #003bc2; text-decoration: underline;">%%TAG_EMAIL%%</a>. Si no desea seguir recibiendo promociones o informaci&oacute;n haga click
+            <a href="#" target="_blank" style="color: #003bc2; text-decoration: underline;">aqu&iacute;</a>.
+          </span>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
