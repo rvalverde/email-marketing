@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+package-lock.json
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next
+
+# dist folder
+dist/
+
+# Mac files
+.DS_Store
